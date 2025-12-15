@@ -1,0 +1,106 @@
+<li><a class="font-bold text-base font-poppins text-blue-900">Homepage</a></li>
+        <li><a class="font-bold text-base font-poppins text-blue-900">About Doctor</a></li>
+        <li><a class="font-bold text-base font-poppins text-blue-900">Qualifications</a></li>
+        <li><a class="font-bold text-base font-poppins text-blue-900">Appointment</a></li>
+        <li><a class="font-bold text-base font-poppins text-blue-900">Contact</a></li>
+
+        <a href="tel:09639117788" class="bg-white text-blue-900">
+      📞 Call Now
+    </a>
+
+     <li><a class="hover:underline" href="#home">Home</a></li>
+      <li><a class="hover:underline" href="#about">About Doctor</a></li>
+      <li><a class="hover:underline" href="#services">Services</a></li>
+      <li><a class="hover:underline" href="#appointment">Appointment</a></li>
+      <li><a class="hover:underline" href="#contact">Contact</a></li>
+
+        <a class="text-xl font-bold text-blue-700">
+     <img class="w-16" src="img/images.jfif" alt="images">
+    </a>
+
+
+
+     <header>
+ <!-- ================= NAVBAR ================= -->
+<div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+       <li><a class="hover:underline" href="#home">Home</a></li>
+      <li><a class="hover:underline" href="#about">About Doctor</a></li>
+      <li><a class="hover:underline" href="#services"></a></li>
+      <li><a class="hover:underline" href="#appointment">Appointment</a></li>
+      <li><a class="hover:underline" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+     <li><a class="hover:underline" href="#home">Home</a></li>
+      <li><a class="hover:underline" href="#about">About Doctor</a></li>
+      <li><a class="hover:underline" href="#services">Services</a></li>
+      <li><a class="hover:underline" href="#appointment">Appointment</a></li>
+      <li><a class="hover:underline" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end">
+   <a href="tel:09639117788" class="bg-white text-blue-900">
+      📞 Call Now
+    </a>
+  </div>
+</div>
+<!-- ================= HERO SECTION ================= -->
+<div
+  id="home"
+  class="hero relative min-h-screen"
+  style="background-image: url('./img/ChatGPT Image Dec 14, 2025, 11_52_03 AM.png'); background-size: cover; background-position: center;">
+
+  <!-- Dark Overlay -->
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <!-- Content -->
+  <div class="hero-content relative z-10 text-center text-white">
+    <div class="max-w-2xl">
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+        Advanced Laparoscopic & <br>
+        Colorectal Surgery
+      </h1>
+
+      <h2 class="mt-4 text-2xl font-semibold text-blue-300">
+        Dr. Md. Ekramul Haque
+      </h2>
+
+      <p class="mt-3 text-lg text-gray-200">
+        FRCS (England) | Senior Consultant Surgeon <br>
+        Dhaka Medical College Hospital
+      </p>
+
+      <div class="mt-6 flex justify-center gap-4 flex-wrap">
+        <a href="#appointment" class="btn btn-error">
+          📅 Book Appointment
+        </a>
+        <a href="#contact" class="btn btn-outline btn-white text-white border-white">
+          📍 Visit Hospital
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+     </header>
