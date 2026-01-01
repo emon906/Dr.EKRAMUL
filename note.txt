@@ -1,106 +1,97 @@
-<li><a class="font-bold text-base font-poppins text-blue-900">Homepage</a></li>
-        <li><a class="font-bold text-base font-poppins text-blue-900">About Doctor</a></li>
-        <li><a class="font-bold text-base font-poppins text-blue-900">Qualifications</a></li>
-        <li><a class="font-bold text-base font-poppins text-blue-900">Appointment</a></li>
-        <li><a class="font-bold text-base font-poppins text-blue-900">Contact</a></li>
+<!-- header -->
+         <header>
+ <div class="navbar bg-white shadow-md sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto w-full px-6 flex justify-between">
 
-        <a href="tel:09639117788" class="bg-white text-blue-900">
-      📞 Call Now
-    </a>
-
-     <li><a class="hover:underline" href="#home">Home</a></li>
-      <li><a class="hover:underline" href="#about">About Doctor</a></li>
-      <li><a class="hover:underline" href="#services">Services</a></li>
-      <li><a class="hover:underline" href="#appointment">Appointment</a></li>
-      <li><a class="hover:underline" href="#contact">Contact</a></li>
-
-        <a class="text-xl font-bold text-blue-700">
-     <img class="w-16" src="img/images.jfif" alt="images">
-    </a>
-
-
-
-     <header>
- <!-- ================= NAVBAR ================= -->
-<div class="navbar bg-base-100">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor">
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h8m-8 6h16" />
-        </svg>
-      </div>
-      <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-       <li><a class="hover:underline" href="#home">Home</a></li>
-      <li><a class="hover:underline" href="#about">About Doctor</a></li>
-      <li><a class="hover:underline" href="#services"></a></li>
-      <li><a class="hover:underline" href="#appointment">Appointment</a></li>
-      <li><a class="hover:underline" href="#contact">Contact</a></li>
-      </ul>
+    <!-- Left Logo -->
+    <div class="flex items-center gap-2">
+      <img src="./img/images.jfif" class="w-12" alt="Clinic Logo">
+      <span class="text-xl font-bold text-sky-700">
+        Dr. Ekramul
+      </span>
     </div>
-    <a class="btn btn-ghost text-xl">daisyUI</a>
-  </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-     <li><a class="hover:underline" href="#home">Home</a></li>
-      <li><a class="hover:underline" href="#about">About Doctor</a></li>
-      <li><a class="hover:underline" href="#services">Services</a></li>
-      <li><a class="hover:underline" href="#appointment">Appointment</a></li>
-      <li><a class="hover:underline" href="#contact">Contact</a></li>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden lg:flex gap-6 items-center font-medium text-gray-700">
+      <li><a href="#home" class="hover:text-sky-600">Home</a></li>
+      <li><a href="#about" class="hover:text-sky-600">About Doctor</a></li>
+      <li><a href="#services" class="hover:text-sky-600">Services</a></li>
+      <li><a href="#appointment" class="hover:text-sky-600">Appointment</a></li>
+      <li><a href="#contact" class="hover:text-sky-600">Contact</a></li>
     </ul>
-  </div>
-  <div class="navbar-end">
-   <a href="tel:09639117788" class="bg-white text-blue-900">
+
+    <!-- Call Button -->
+    <a href="tel:09639117788"
+       class="bg-sky-600 text-white px-4 py-2 rounded-md hover:bg-sky-700">
       📞 Call Now
     </a>
   </div>
 </div>
+
 <!-- ================= HERO SECTION ================= -->
-<div
-  id="home"
-  class="hero relative min-h-screen"
-  style="background-image: url('./img/ChatGPT Image Dec 14, 2025, 11_52_03 AM.png'); background-size: cover; background-position: center;">
+<section class="relative w-full 
+bg-gradient-to-br from-slate-50 via-sky-50 to-blue-100" >
+  <div class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
 
-  <!-- Dark Overlay -->
-  <div class="absolute inset-0 bg-black/70"></div>
-
-  <!-- Content -->
-  <div class="hero-content relative z-10 text-center text-white">
-    <div class="max-w-2xl">
-      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
-        Advanced Laparoscopic & <br>
-        Colorectal Surgery
+    <!-- LEFT CONTENT -->
+    <div class="z-10">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+       Dr. Ekramul Hoque <br>
+        <span class="text-sky-600">Laparoscopic</span> <br>
+        Surgery
       </h1>
-
-      <h2 class="mt-4 text-2xl font-semibold text-blue-300">
-        Dr. Md. Ekramul Haque
-      </h2>
-
-      <p class="mt-3 text-lg text-gray-200">
-        FRCS (England) | Senior Consultant Surgeon <br>
-        Dhaka Medical College Hospital
-      </p>
-
-      <div class="mt-6 flex justify-center gap-4 flex-wrap">
-        <a href="#appointment" class="btn btn-error">
-          📅 Book Appointment
-        </a>
-        <a href="#contact" class="btn btn-outline btn-white text-white border-white">
-          📍 Visit Hospital
-        </a>
-      </div>
-    </div>
-  </div>
+      
+<div class="mt-6 flex items-center gap-3 text-sky-700 font-medium">
+  <span class="w-2 h-2 bg-sky-600 rounded-full"></span>
+  Trusted by patients for safe & advanced surgery
 </div>
+      <ul class="mt-6 space-y-2 text-lg text-gray-700">
+        <li>• Less Scarring</li>
+        <li>• Less Pain</li>
+        <li>• Minimal Blood Loss</li>
+        <li>• Faster Recovery</li>
+      </ul>
+
+      <!-- Yellow Info Box -->
+      <div class="mt-6 bg-yellow-400 px-3 py-2 rounded-md shadow-md max-w-lg">
+        <p class="font-semibold text-gray-900">
+          We offer a range of laparoscopic surgeries for:
+        </p>
+        <p class="mt-2 text-sm text-gray-800">
+          Hernia, Gallbladder, Appendectomy, Piles, Fistula,
+          Fissure, Hysterectomy & many more
+        </p>
+      </div>
+
+      <!-- Phone -->
+      <a href="#appointment"
+ class="inline-flex items-center gap-2 mt-8
+ bg-sky-50 text-sky-700 font-medium
+ px-6 py-3 rounded-lg
+ border border-sky-200
+ hover:bg-sky-100 hover:shadow-md
+ transition-all duration-300">
+
+  🩺 Consult Now
+</a>
+      
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="relative">
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-l from-transparent via-white/30 to-white/90 rounded-xl"></div>
+
+      <img
+        src="./img/Laparoscopic.jpg"
+        alt="Laparoscopic Surgery"
+        class="rounded-xl  w-full object-cover"
+      />
+    </div>
+
+  </div>
      </header>
+    <!-- header -->
+
+
+
