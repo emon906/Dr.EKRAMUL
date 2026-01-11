@@ -1,1 +1,16 @@
   👨‍⚕️ Call the Doctor
+  <a href="#" class="hover:text-blue-600">Home</a>
+        <a href="#" class="hover:text-blue-600">About Doctor</a>
+        <a href="#" class="hover:text-blue-600">Services</a>
+        <a href="#" class="hover:text-blue-600">Appointment</a>
+        <a href="#" class="hover:text-blue-600">Contact</a>
+
+        
+         <a 
+        href="#"
+        class="hidden md:inline-flex items-center px-5 py-2 rounded-full border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition"
+      >
+        Get Appointment →
+      </a>
+
+       View Credentials →
