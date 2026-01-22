@@ -1,10 +1,54 @@
-  👨‍⚕️ Call the Doctor
-  <a href="#" class="hover:text-blue-600">Home</a>
-        <a href="#" class="hover:text-blue-600">About Doctor</a>
-        <a href="#" class="hover:text-blue-600">Services</a>
-        <a href="#" class="hover:text-blue-600">Appointment</a>
-        <a href="#" class="hover:text-blue-600">Contact</a>
+  <section class="bg-white py-32">
+  <div class="max-w-7xl mx-auto px-6">
 
+    <!-- Section Heading -->
+    <div class="text-center max-w-3xl mx-auto mb-20">
+      <span class="inline-block px-5 py-2 rounded-full bg-blue-100 text-blue-600 text-sm font-semibold mb-6">
+        Surgical Excellence
+      </span>
+
+      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
+        Advanced Laparoscopic  
+        <span class="text-blue-600">Operation Procedures</span>
+      </h2>
+
+      <p class="mt-6 text-lg text-gray-600">
+        Watch real surgical procedures demonstrating precision, safety,
+        and modern minimally invasive techniques.
+      </p>
+    </div>
+
+    <!-- Video Card -->
+    <div class="relative max-w-5xl mx-auto rounded-[36px] overflow-hidden shadow-2xl bg-black">
+
+      <!-- Video -->
+      <video
+        class="w-full h-[500px] object-contain"
+        controls
+        poster="YOUR_VIDEO_POSTER_IMAGE.jpg"
+      >
+        <source src="img/WhatsApp Video 2026-01-03 at 4.57.49 AM.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Dark Overlay -->
+      <div class="absolute inset-0 pointer-events-none bg-black/25"></div>
+
+      <!-- Floating Caption -->
+      <div class="absolute bottom-10 left-1/2 -translate-x-1/2 bg-white/80 backdrop-blur-3xl px-8 py-5 rounded-2xl shadow-xl max-w-3xl text-center">
+        <p class="text-gray-900 font-semibold text-lg">
+          Adhesions of abdominal organs and uterus corrected through
+          <span class="text-blue-600"> laparoscopic surgery</span>.
+        </p>
+        <p class="mt-2 text-sm text-gray-600">
+          তলপেটে নাড়িভুড়ি ও জরায়ু লেগে থাকা, ল্যাপারোস্কপিক অপারেশনের করে ঠিক করা।
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
         
          <a 
         href="#"
